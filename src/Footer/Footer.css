@@ -1,0 +1,83 @@
+.container-fluid{
+    display: flex;
+    background-color: #091E3E;
+    color: white;
+    font-family: "Rubik",sans-serif;
+}
+.footer-about{
+    height: 453px;
+    width: 396px;
+    background-color: #06a3da;
+    margin-left: 111px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+}
+.footer-about p{
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.get-in-touch{
+    display: flex;
+    margin: auto 0;
+    margin-left: 40px;
+}
+.section-title{
+    font-size: 25px;
+}
+.d-flex{
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+.btn-footer{
+    height: 36px;
+    width: 36px;
+    background-color: #06a3da;
+    border-radius: 2px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .twiter-img{
+    display: flex;
+}
+.btn-footer{
+      margin-top: 10px;
+      margin-right: 10px;
+  }
+  .link-animated{
+    display: grid;
+  }
+  .arrow{
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .Quick-Links{
+    margin-left: 50px;
+  }
+  .text-white-footer{
+    background-color: #061429;
+  }
+    .container-fluid-footer {
+        display: flex;
+        color: white;
+        font-family: "Rubik",sans-serif;
+        padding: 25px;
+        margin-top: -67px;
+        justify-content: center;
+    }
+    .last-footer{
+        padding-left: 550px;
+    }
