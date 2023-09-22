@@ -2,11 +2,34 @@ import React from "react";
 import about from "../img/about.jpg";
 import { FaCheck } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
+import carousel from "../img/carousel-1.jpg";
 import "./Aboutus.css";
+import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Aboutus = () => {
   return (
     <>
+      <div className="carousel-item active ">
+        <div className="background-img carousel-img">
+          <img className="slide carousel-img" src={carousel} />
+        </div>
+        <div className="carousel-caption about-carousel">
+          <div className="h1-font-size">
+            <h1 className="display-1 h1-font-size carousel-margin-top">About Us</h1>
+            <h5 className="text-white ">
+              <Link className="h-5-Aboout" to="/">
+                Home
+              </Link>
+              0
+              <Link className="h-5-Aboout" to="/aboutus">
+                About
+              </Link>
+            </h5>
+          </div>
+        </div>
+      </div>
+
       <div className="aboutus">
         <div className="left-cantent">
           <h3>About Us</h3>
@@ -55,6 +78,7 @@ const Aboutus = () => {
           <img src={about} />
         </div>
       </div>
+      <Footer />
     </>
   );
 };

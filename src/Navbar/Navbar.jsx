@@ -12,44 +12,45 @@ import { PiYoutubeLogoFill } from "react-icons/pi";
 const Navbar = () => {
   return (
     <div className="topbar">
-      <div className="topbar-1">
-        <div className="topbartext">
-          <MdOutlineLocationOn className="location-logo" />
-          <div className="address">123 Street, Abc State, india</div>
-          <BiPhoneCall className="location-logo" />
-          <div className="address">+012 345 6789</div>
-          <MdOutlineEmail className="location-logo" />
-          <div className="address">info@example.com</div>
-        </div>
-        <div className="social-icon">
-          <ul>
-            <a>
-              <li className="img">
-                <SlSocialTwitter />
-              </li>
-            </a>
-            <a>
-              <li className="img">
-                <FaFacebook />
-              </li>
-            </a>
-            <a>
-              <li className="img">
-                <TiSocialLinkedin />
-              </li>
-            </a>
-            <a>
-              <li className="img">
-                <IoLogoInstagram />
-              </li>
-            </a>
-            <a>
-              <li className="img">
-                <PiYoutubeLogoFill />
-              </li>
-            </a>
-          </ul>
-        </div>
+      <div className="topbartext">
+        <MdOutlineLocationOn className="location-logo" />
+        <div className="address">123 Street, Abc State, india</div>
+        <BiPhoneCall className="location-logo" />
+        <div className="address">+012 345 6789</div>
+        <MdOutlineEmail className="location-logo" />
+        <div className="address">info@example.com</div>
+      </div>
+      <div className="social-icon d-inline-flex align-items-center-topbat">
+        <a
+          className="btn img btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+          href=""
+        >
+          <SlSocialTwitter />
+        </a>
+        <a
+          className="btn img btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+          href=""
+        >
+          <FaFacebook />
+        </a>
+        <a
+          className="btn img btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+          href=""
+        >
+          <TiSocialLinkedin />
+        </a>
+        <a
+          className="btn img btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+          href=""
+        >
+          <IoLogoInstagram />
+        </a>
+        <a
+          className="btn img btn-sm btn-outline-light btn-sm-square rounded-circle"
+          href=""
+        >
+          <PiYoutubeLogoFill />
+        </a>
       </div>
     </div>
   );

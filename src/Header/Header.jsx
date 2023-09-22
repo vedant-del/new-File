@@ -2,32 +2,32 @@ import React from "react";
 import { FaUserTie } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
-      <div className="header-nav">
-        <a to="/" className="navbar-brand p-0">
+        <Link to="/" className="navbar-brand p-0">
           <h1 className="startup">
             <FaUserTie className="user-logo" />
             <span className="Startup-name">
             Startup
             </span>
           </h1>
-        </a>
+        </Link>
         <div className="navbar-nav">
-          <a to="/" className="nav-item nav-a">
+          <Link to="/" className="nav-item">
             Home
-          </a>
-          <a to="/about" className="nav-item nav-a">
+          </Link>
+          <Link to="/aboutus" className="nav-item nav-a">
             About
-          </a>
-          <a to="/service" className="nav-item nav-a">
+          </Link>
+          <Link to="/services" className="nav-item nav-a">
             Services
-          </a>
-          <a to="/task" className="nav-item nav-a">
+          </Link>
+          {/* <a to="/task" className="nav-item nav-a">
             Task
-          </a>
+          </a> */}
           <div className="nav-item pages dropdown dropdown">
             <a
               to="#"
@@ -40,9 +40,9 @@ const Header = () => {
             <div className="dropdown-menu dropdown-content m-0">
               <ul>
                 <li>
-              <a to="/feature" className="dropdown-item">
+              <Link to="/features" className="dropdown-item">
                 Our features
-              </a>
+              </Link>
                 </li>
                 <li>
               <a to="/team" className="dropdown-item">
@@ -55,9 +55,9 @@ const Header = () => {
               </a>
                 </li>
                 <li>
-              <a to="/login" className="dropdown-item">
+              <Link to="/Login" className="dropdown-item">
                 Login
-              </a>
+              </Link>
                 </li>
                 <li>
               <a className="dropdown-item">Logout</a>
@@ -70,7 +70,6 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </div>
   );
 };
 

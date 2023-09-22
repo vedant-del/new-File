@@ -4,7 +4,7 @@
     bottom: 0px;
   }
   50% {
-    left: 150px;
+    left: 100px;
     bottom: 0px;
   }
   100% {
@@ -45,7 +45,7 @@
 .line-animated::before {
   position: absolute;
   content: "";
-  width: 150px;
+  width: 100px;
   height: 5px;
   left: 0;
   bottom: 0;
@@ -112,4 +112,64 @@
 .number {
   color: #06a3da;
   margin-top: 10px;
+}
+
+.background-img img{
+  width: 100%;
+  height: 10%;
+  z-index: 9;
+  opacity: 1;
+}
+.background-img{
+  background: rgba(9, 30, 62, 0.7);
+  z-index: 1;
+  /* filter : grayscale(100%);  */
+}
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, 0.7);
+  z-index: 0;
+  position: absolute;
+}
+.about-carousel{
+  height: 31rem;
+}
+.h1-font-size{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+.carousel-margin-top{
+  margin-top: -50px;
+}
+.h1-font-size h5 Link{
+  font-size: 25px;
+  color: white;
+}
+.h1-font-size h1{
+  font-size: 60px;
+  margin: 30px 0px;
+}
+.h-5-Aboout{
+  color: white;
+  margin: 0 8px;
+}
+.h-5-Aboout:hover{
+  color: #06a3da;
+}
+.h1-font-size{
+  font-size: 30px;
+}
+.carousel-img img{
+  height: 450px;
+}
+
+@media (max-width: 1000px) {
+  .aboutus{
+    display: inline;
+  }
 }

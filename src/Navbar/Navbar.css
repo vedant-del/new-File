@@ -7,14 +7,13 @@
     z-index: 1;
     display: flex;
     position: relative;
-}
-.topbar-1{
-    padding-left: 3rem !important;
+    justify-content: space-between;
 }
 .topbartext{
     display: flex;
+    margin-left: 3rem;
 }
-.social-icon ul li {
+.align-items-center-topbat a {
     color: white;
     list-style: none;
     display: inline;
@@ -29,12 +28,10 @@
 }
 .social-icon{
     float: right;
-    /* height: 100px; */
     align-items: center;
     display: flex;
     margin: 10px 10px;
-    position: absolute;
-    left: 1300px;
+    position: relative;
     font-size: 1.2rem;
     top: -0px;
     padding-right: 3rem !important;

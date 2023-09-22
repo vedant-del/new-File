@@ -9,6 +9,8 @@
     margin-right: 20px;
     display: flex;
     align-items: center;
+    padding: 20px;
+
 }
 .Services-row{
     display: flex;
@@ -43,4 +45,13 @@
     background-color: #06a3da;
     color: white;
     padding: 20px;
+    width: 447px;
+}
+.last-number{
+    margin-top: 20px;
+}
+@media (max-width: 1000px) {
+    .Services-content{
+        display: flex;
+    }
 }
